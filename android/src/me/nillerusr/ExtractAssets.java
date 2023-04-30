@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.hl2sb.R;
+import com.valvesoftware.source.finnalyafuck.R;
 
 import android.content.SharedPreferences;
 import java.io.FileOutputStream;

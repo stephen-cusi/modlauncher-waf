@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.hl2sb.R;
+import com.valvesoftware.source.modname.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -38,7 +38,7 @@ import me.nillerusr.UpdateSystem;
 
 public class LauncherActivity extends Activity
 {
-	public static String MOD_NAME = "hl2sb";
+	public static String MOD_NAME = "modname";
 	public static String PKG_NAME;
 
 	static EditText cmdArgs;
