@@ -1,11 +1,6 @@
 package me.nillerusr;
 
-<<<<<<< HEAD
 import com.valvesoftware.source.modname.R;
-=======
-import com.valvesoftware.source.mod.R;
->>>>>>> neworigin/master
-
 import android.content.*;
 import java.io.*;
 import java.net.*;
