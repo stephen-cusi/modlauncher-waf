@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 for file in $(find android/ -name '*.java' )
 	do 
 		sed -i -r 's/modname/'$MODNAME'/g' $file; 
