@@ -1,6 +1,10 @@
 package me.nillerusr;
 
+<<<<<<< HEAD
 import com.valvesoftware.source.modname.R;
+=======
+import com.valvesoftware.source.mod.R;
+>>>>>>> neworigin/master
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -38,7 +42,11 @@ import me.nillerusr.UpdateSystem;
 
 public class LauncherActivity extends Activity
 {
+<<<<<<< HEAD
 	public static String MOD_NAME = "modname";
+=======
+	public static String MOD_NAME = "gamedir";
+>>>>>>> neworigin/master
 	public static String PKG_NAME;
 
 	static EditText cmdArgs;
@@ -138,7 +146,11 @@ public class LauncherActivity extends Activity
 			}
 		} );
 
+<<<<<<< HEAD
 		cmdArgs.setText( mPref.getString( "argv", "-console" ) );
+=======
+		cmdArgs.setText( mPref.getString( "argv", "-nobackgroundlevel" ) );
+>>>>>>> neworigin/master
 
 		boolean isCommitEmpty = getResources().getString( R.string.current_commit ).isEmpty();
 		boolean isURLEmpty = getResources().getString( R.string.update_url ).isEmpty();

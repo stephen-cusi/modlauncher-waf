@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 # a1batross, 2019
+<<<<<<< HEAD
+=======
+import buildcopy
+>>>>>>> neworigin/master
 
 def options(opt):
 	opt.load('android')
@@ -13,7 +17,12 @@ def configure(conf):
 
 def build(bld):
 	tsk = bld(
+<<<<<<< HEAD
 		features = 'android javac',
+=======
+		features = 'android javac buildcopy',
+		buildcopy_source = bld.path.ant_glob( "lib/" ),
+>>>>>>> neworigin/master
 		srcdir = 'src',
 		compat = bld.env.JAVAC_SOURCE_TARGET,
 		name = 'mod',

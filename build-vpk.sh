@@ -1,6 +1,12 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 rm android/assets/extras_dir.vpk
+=======
+if [ -e "android/assets/extras_dir.vpk" ]; then
+	rm android/assets/extras_dir.vpk
+fi
+>>>>>>> neworigin/master
 
 vpk -c vpk/ android/assets/extras_dir.vpk
 

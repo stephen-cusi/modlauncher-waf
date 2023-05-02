@@ -8,3 +8,7 @@ build/
 /bin/
 .classpath
 .project
+<<<<<<< HEAD
+=======
+*.pyc
+>>>>>>> neworigin/master

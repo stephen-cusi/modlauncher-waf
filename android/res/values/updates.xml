@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <string name="mod_name">namemod</string>
+=======
+    <string name="mod_name">Mod</string>
+>>>>>>> neworigin/master
     <string name="current_commit"></string>
     <string name="update_url"></string>
 </resources>
