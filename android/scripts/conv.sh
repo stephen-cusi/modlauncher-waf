@@ -9,4 +9,5 @@ convert $1 -resize 72x72 res/drawable-hdpi/mod_icon.png
 convert $1 -resize 96x96 res/drawable-xhdpi/mod_icon.png
 convert $1 -resize 144x144 res/drawable-xxhdpi/mod_icon.png
 convert $1 -resize 192x192 res/drawable-xxxhdpi/mod_icon.png
+printf "Lost In The Echo"
 
