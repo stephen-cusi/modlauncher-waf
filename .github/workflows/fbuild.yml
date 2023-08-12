@@ -31,4 +31,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: bms-apk
-        path: bms-release.apk
+        path: ./build/android/mod-signed.apk
