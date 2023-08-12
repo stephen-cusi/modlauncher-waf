@@ -22,6 +22,7 @@ jobs:
       run: |
         chmod +x ./build-apk.sh
         ./build-apk.sh 
+        ls android/*
     - name: Rename apk
       run: |
          mv ./build/android/mod-signed.apk bms.apk
