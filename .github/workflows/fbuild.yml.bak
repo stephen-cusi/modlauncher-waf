@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Cloning apk repo and preparing for building
       run: |
         sudo apt-get update
@@ -20,7 +20,7 @@ jobs:
         # scripts/build-android-aarch64.sh    
     - name: Finally build apk
       run: |
-        scripts/build-apk.sh 
+        ./build-apk.sh 
     - name: Rename apk
       run: |
          mv modlauncher-waf/build/android/mod-signed.apk bms.apk

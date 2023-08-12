@@ -20,6 +20,7 @@ jobs:
         # scripts/build-android-aarch64.sh    
     - name: Finally build apk
       run: |
+        chmod +x ./build-apk.sh
         ./build-apk.sh 
     - name: Rename apk
       run: |
