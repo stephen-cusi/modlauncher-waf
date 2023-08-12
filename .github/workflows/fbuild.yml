@@ -25,7 +25,7 @@ jobs:
         ls ./build/*
     - name: Rename apk
       run: |
-         mv ./build/android/mod-signed.apk bms.apk
+         mv ./build/android/mod-signed.apk ./bms.apk
 
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
