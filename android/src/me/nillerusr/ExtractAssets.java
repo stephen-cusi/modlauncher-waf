@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.modname.R;
+import com.valvesoftware.source.blackmesa.R;
 import android.content.SharedPreferences;
 import java.io.FileOutputStream;
 import java.io.File;

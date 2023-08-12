@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.modname.R;
+import com.valvesoftware.source.blackmesa.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -37,7 +37,7 @@ import me.nillerusr.UpdateSystem;
 
 public class LauncherActivity extends Activity
 {
-	public static String MOD_NAME = "modname";
+	public static String MOD_NAME = "blackmesa";
 	public static String PKG_NAME;
 
 	static EditText cmdArgs;
