@@ -10,3 +10,4 @@ git pull
 #cp -r res android/
 ./waf configure -T release &&
 ./waf build
+#by:sanyasho
