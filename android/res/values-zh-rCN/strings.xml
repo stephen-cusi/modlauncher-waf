@@ -2,19 +2,18 @@
 <resources>
     <string name="srceng_launcher_command_args">命令行参数</string>
     <string name="srceng_launcher_about_title">关于</string>
-    <string name="srceng_launcher_about_text">"感谢itzvaldik的移植
-感谢pulsafield和dim1xs的部分bug修复
+    <string name="srceng_launcher_about_text">"感谢deck_llot的技术修改
+感谢LJ制作lmod本体
 感谢其他作者提供的资源
-itzvaldik的github
-https://github.com/ItzVladik
-本项目开源地址（原作者寄了）
-https://github.com/stephen-cusi/source-engine-mod"</string>
+
+本项目开源地址（模组作者寄了,除放假外在学校😭😭😭）
+https://github.com/stephen-cusi/source-engine-mod(lmod branch)"</string>
     <string name="srceng_launcher_launch">启动</string>
     <string name="srceng_launcher_ok">确定</string>
     <string name="srceng_launcher_error">错误</string>
     <string name="new_update">更新可用！</string>
     <string name="source_engine_fatal">请安装起源引擎 ！</string>
-    <string name="mod_name">半条命2:沙盒</string>
+    <string name="mod_name">半条命2:Lmod</string>
     <string name="current_commit" />
     <string name="update_url" />
 </resources>
