@@ -2,7 +2,8 @@
 <resources>
     <string name="srceng_launcher_command_args">命令行参数</string>
     <string name="srceng_launcher_about_title">关于</string>
-    <string name="srceng_launcher_about_text">"感谢deck_llot的技术修改
+    <string name="srceng_launcher_about_text">"Preview release
+    感谢deck_llot的技术修改
 感谢LJ制作lmod本体
 感谢其他作者提供的资源
 
